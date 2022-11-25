@@ -22,7 +22,7 @@ const NewNote = () => {
 
   const createNote = async () => {
     try {
-      const res = await fetch("https://da-p2-task1-iota.vercel.app/api/User", {
+      const res = await fetch("https://buidlr.vercel.app/api/User", {
         method: "POST",
         headers: {
           Accept: "application/json",
